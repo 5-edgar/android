@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Empresa" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Nosotros" />
+
+        <item
+            android:id="@+id/lihogar"
+            android:icon="@drawable/refrigerador1"
+            android:title="Camisetas Deportivas" />
+
+        <item
+            android:id="@+id/litrabajo"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Calentadores" />
+        <item
+            android:id="@+id/lisOficina"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Zapatos" />
+        <item
+            android:id="@+id/liescolar"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Chompas" />
+        <item
+            android:id="@+id/kit"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Articulos Varios" />
+
+    </group>
+</menu>
